@@ -46,9 +46,9 @@ parent: Features
 
 ### Bar
 
-**Given** that
-**When** I do something
-**Then** something happens.`,
+**Given** that  
+**When** I do something  
+**Then** something happens.  `,
 		},
 		{`
 Feature: Foo
@@ -68,7 +68,7 @@ parent: Features
 
 ### Bar
 
-**When** I do something:
+**When** I do something:  
 
 %[1]ssh
 foo
@@ -136,7 +136,7 @@ parent: Features
 
 ## Background (Bar)
 
-**Given** Baz:
+**Given** Baz:  
 
 | foo |
 |:----|
@@ -161,7 +161,7 @@ parent: Features
 
 ### Bar
 
-**When** <someone> does <something>.
+**When** <someone> does <something>.  
 
 ### Examples
 
@@ -188,7 +188,7 @@ parent: Features
 
 ### Bar
 
-**When** <someone> does <something>.
+**When** <someone> does <something>.  
 
 ### Examples
 
@@ -219,7 +219,7 @@ parent: Features
 
 ### Bar
 
-**When** <someone> does <something>.
+**When** <someone> does <something>.  
 
 ### Examples
 
@@ -254,7 +254,7 @@ parent: Features
 
 ### Bar
 
-**When** <someone> does <something>.
+**When** <someone> does <something>.  
 
 ### Examples
 

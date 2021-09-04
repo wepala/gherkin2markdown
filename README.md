@@ -1,11 +1,14 @@
 # gherkin2markdown
 
-[![GitHub Action](https://img.shields.io/github/workflow/status/wepala/gherkin2markdown/main?style=flat-square)](https://github.com/raviqqe/gherkin2markdown/actions)
-[![Codecov](https://img.shields.io/codecov/c/github/wepala/gherkin2markdown.svg?style=flat-square)](https://codecov.io/gh/raviqqe/gherkin2markdown)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wepala/gherkin2markdown?style=flat-square)](https://goreportcard.com/report/github.com/raviqqe/gherkin2markdown)
+[![GitHub Action](https://img.shields.io/github/workflow/status/wepala/gherkin2markdown/main?style=flat-square)](https://github.com/wepala/gherkin2markdown/actions)
+[![Codecov](https://img.shields.io/codecov/c/github/wepala/gherkin2markdown.svg?style=flat-square)](https://codecov.io/gh/wepala/gherkin2markdown)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wepala/gherkin2markdown?style=flat-square)](https://goreportcard.com/report/github.com/wepala/gherkin2markdown)
 [![License](https://img.shields.io/github/license/wepala/gherkin2markdown.svg?style=flat-square)](LICENSE)
 
 A command to convert Gherkin files into Markdown.
+
+This is a fork of [gherkin2markdown](https://github.com/raviqqe/gherkin2markdown), to make customizations that made the 
+markdown a bit neater with Github Pages 
 
 ## Installation
 

@@ -159,6 +159,7 @@ func (r *renderer) renderDataTable(t *messages.DataTable) {
 	for _, t := range t.Rows[1:] {
 		r.renderCells(t.Cells, ws)
 	}
+	r.writeLine("")
 }
 
 func (r *renderer) renderCells(cs []*messages.TableCell, ws []int) {

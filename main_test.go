@@ -42,7 +42,7 @@ func TestCommandWithDirectory(t *testing.T) {
 
 	bs, err := ioutil.ReadFile(filepath.Join(d, "foo.md"))
 	assert.Nil(t, err)
-	assert.Equal(t, "# Foo\n", string(bs))
+	assert.Equal(t, "---\nlayout: default\ntitle: Foo\nparent: Features\n---\n# Foo\n", string(bs))
 
 	os.RemoveAll(r)
 }

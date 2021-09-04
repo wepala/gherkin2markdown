@@ -148,10 +148,10 @@ func (r *renderer) renderDataTable(t *messages.DataTable) {
 
 	r.renderCells(t.Rows[0].Cells, ws)
 
-	s := "|:"
+	s := "|"
 
 	for _, w := range ws {
-		s += strings.Repeat("-", w+1) + "|"
+		s += ":"+strings.Repeat("-", w+1) + "|"
 	}
 
 	r.writeLine(s)
